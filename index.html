@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NAVI Esports Team</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #003366; color: #fff; }
+    header { background: #ffcc00; padding: 10px 20px; text-align: center; }
+    header h1 { color: #003366; }
+    nav { background: #004488; padding: 10px 0; }
+    nav ul { list-style-type: none; padding: 0; text-align: center; }
+    nav ul li { display: inline; }
+    nav ul li a { text-decoration: none; color: white; padding: 15px 20px; display: inline-block; }
+    footer { background-color: #222; padding: 10px 20px; text-align: center; }
+    footer p { color: #fff; margin: 0; font-size: 14px; }
+    .content { padding: 20px; text-align: center; }
+    .team-logo { max-width: 100px; }
+    .achievement { margin: 20px; }
+    .achievement img { width: 100%; max-width: 300px; height: auto; }
+    .video { margin-top: 20px; }
+    .video iframe { width: 100%; height: 300px; }
+</style>
+<script>
+    function alertInfo() {
+        alert("Welcome to the NAVI Esports Team Website!");
+    }
+</script>
+</head>
+<body onload="alertInfo()">
+<header>
+    <h1>Natus Vincere (NAVI)</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#roster">Current Roster</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#videos">Videos</a></li>
+    </ul>
+</nav>
+<div class="content" id="home">
+    <img src="https://example.com/navi-logo.png" alt="NAVI Logo" class="team-logo">
+    <p>Welcome to the official NAVI fan site!</p>
+</div>
+<div class="content" id="roster">
+    <h2>Current Roster</h2>
+    <!-- List of players -->
+    <p>Player 1, Player 2, Player 3, ...</p>
+</div>
+<div class="content" id="achievements">
+    <h2>Major Achievements</h2>
+    <!-- Example Achievement -->
+    <div class="achievement">
+        <h3>Title of Achievement</h3>
+        <img src="https://example.com/achievement.jpg" alt="Trophy">
+        <p>Description of the achievement...</p>
+    </div>
+</div>
+<div class="content video" id="videos">
+    <h2>Victory Clips</h2>
+    <!-- Embed YouTube video -->
+    <iframe src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+</div>
+<footer>
+    <p>&copy; 2024 Natus Vincere. All rights reserved.</p>
+</footer>
+</body>
+</html>
